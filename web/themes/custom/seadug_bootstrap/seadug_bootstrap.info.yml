@@ -1,0 +1,19 @@
+name: SeaDUG Bootstrap
+description: "Demo theme for SeaDUG."
+type: theme
+core: 8.x
+base theme: false
+
+libraries:
+  - seadug_bootstrap/base
+  - seadug_bootstrap/bootstrap-js
+
+regions:
+  top_bar: 'Top bar'
+  highlighted: Highlighted
+  messages: Messages
+  content: Content
+  sidebar: Sidebar
+  footer: Footer
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'

@@ -1,0 +1,7 @@
+@import 'init';
+
+html {
+  @include interpolate(font-size, 600px, 1800px, 14px, 18px);
+}
+
+@import 'bootstrap/scss/bootstrap';

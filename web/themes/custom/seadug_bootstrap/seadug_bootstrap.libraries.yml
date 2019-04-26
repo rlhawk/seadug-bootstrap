@@ -1,0 +1,18 @@
+base:
+  version: VERSION
+  css:
+    base:
+      css/styles.css: {}
+
+bootstrap-js:
+  version: VERSION
+  js:
+    js/vendor/bootstrap.min.js: { minified: true }
+  dependencies:
+    - core/jquery
+    - seadug_bootstrap/popper.js
+
+popper.js:
+  version: VERSION
+  js:
+    js/vender/popper.min.js: { minified: true }
